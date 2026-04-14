@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "completed_at": "2026-04-13T00:00:00Z",
+    "urgency_flag": "STANDARD",
+    "network_risk": "STANDARD",
+    "credibility_gap": false
+  },
+  "skills": {
+    "claude_code_projects": [
+      {
+        "name": "Email triage automation",
+        "description": "Built a Claude agent to categorize and draft responses to his own inbox. Used it personally for 3 months.",
+        "users": "himself",
+        "generated_money": false,
+        "money_amount": null
+      },
+      {
+        "name": "Meeting notes summarizer",
+        "description": "Claude Code script that takes raw transcript, produces action items and summary. Shared with 2 ex-colleagues who still use it.",
+        "users": "himself + 2 colleagues",
+        "generated_money": false,
+        "money_amount": null
+      },
+      {
+        "name": "Job description screener",
+        "description": "Wrote a Claude agent to evaluate job postings against a resume and score fit. Built it for his own job search.",
+        "users": "himself",
+        "generated_money": false,
+        "money_amount": null
+      }
+    ],
+    "other_technical": [
+      "JavaScript (intermediate)",
+      "Python (intermediate)",
+      "REST APIs",
+      "Node.js",
+      "basic SQL",
+      "Git",
+      "Notion",
+      "Airtable automation"
+    ],
+    "quick_build_capability": "A working Claude agent that processes text input and produces structured output — within 3-4 hours",
+    "proudest_project": "The meeting notes summarizer — it actually changed how his colleagues run meetings and they use it every week",
+    "unfair_advantages": [
+      "Understands what non-technical business people actually need from AI (not just what's technically possible)",
+      "Can translate between business problem and Claude Code implementation without needing a spec",
+      "Fast iteration — can go from idea to working prototype in an afternoon"
+    ]
+  },
+  "capacity": {
+    "hours_per_week_min": 15,
+    "hours_per_week_max": 30,
+    "income_urgency_days": 30,
+    "financial_runway_weeks": 8,
+    "flexible_hours": true
+  },
+  "network": {
+    "warm_contacts_count": 80,
+    "warm_leads": [
+      {
+        "name_or_description": "Former manager at tech company",
+        "relationship": "Direct manager for 3 years, still in touch",
+        "likelihood_to_pay": "medium",
+        "contact_method": "LinkedIn or text"
+      },
+      {
+        "name_or_description": "Ex-colleague who uses the meeting summarizer",
+        "relationship": "Friend and former teammate, now at a different company",
+        "likelihood_to_pay": "high",
+        "contact_method": "text"
+      },
+      {
+        "name_or_description": "Second ex-colleague using the meeting summarizer",
+        "relationship": "Former teammate, now at a startup",
+        "likelihood_to_pay": "medium",
+        "contact_method": "LinkedIn"
+      },
+      {
+        "name_or_description": "Former skip-level manager",
+        "relationship": "Senior leader who liked his work, connected on LinkedIn",
+        "likelihood_to_pay": "low",
+        "contact_method": "LinkedIn"
+      },
+      {
+        "name_or_description": "3-4 other ex-colleagues from same company",
+        "relationship": "Friendly, not close",
+        "likelihood_to_pay": "low",
+        "contact_method": "LinkedIn"
+      }
+    ],
+    "communities": [
+      {
+        "name": "Local dad group (neighborhood app)",
+        "platform": "Nextdoor/GroupMe",
+        "standing": "known"
+      },
+      {
+        "name": "r/ClaudeAI",
+        "platform": "Reddit",
+        "standing": "lurker"
+      }
+    ],
+    "past_sales_experience": "None formal. Sold a used car once. Has done internal pitches at tech job."
+  },
+  "preferences": {
+    "energizing_work": [
+      "Solving a specific problem with a concrete solution",
+      "Building something and seeing it work",
+      "Explaining technical things to non-technical people"
+    ],
+    "draining_work": [
+      "Open-ended strategy work with no clear deliverable",
+      "Managing other people",
+      "Repetitive data entry or admin"
+    ],
+    "public_persona_ok": true,
+    "preferred_income_model": "freelance",
+    "client_volume_preference": "few_high_value",
+    "deal_breakers": [
+      "Working more than 30 hours/week (needs to be present for kids)",
+      "Anything requiring travel",
+      "Ongoing on-call support responsibilities",
+      "Equity-only or deferred payment"
+    ]
+  },
+  "domain_knowledge": {
+    "industries": [
+      "Tech/SaaS (worked in it for 6+ years)",
+      "Operations and process improvement (what his team actually did)",
+      "B2B software products (what his company sold)"
+    ],
+    "self_built_automations": [
+      "Email triage agent",
+      "Meeting notes summarizer",
+      "Job description screener",
+      "Household budget tracker with Claude categorization"
+    ],
+    "content_consumption": [
+      "Hacker News",
+      "Lenny's Newsletter",
+      "Y Combinator YouTube",
+      "Dad-focused content (parenting podcasts)"
+    ],
+    "inferred_interests": [
+      "Practical applications of AI over theoretical",
+      "Small business operations",
+      "Work-life balance and flexible work",
+      "Helping non-technical people use technical tools"
+    ]
+  },
+  "assets": {
+    "existing_code": [
+      {
+        "description": "Meeting notes summarizer — working Claude Code script",
+        "reusable": true,
+        "sellable": true
+      },
+      {
+        "description": "Email triage agent — working but personal/messy",
+        "reusable": true,
+        "sellable": false
+      }
+    ],
+    "online_presence": {
+      "has_domain": false,
+      "has_website": false,
+      "website_state": "nonexistent",
+      "social_accounts": ["LinkedIn: exists, ~300 connections", "GitHub: exists, mostly private repos"],
+      "largest_audience_size": 300
+    },
+    "existing_content": [],
+    "existing_tools": [
+      "Claude API (active subscription)",
+      "GitHub",
+      "Notion",
+      "VS Code"
+    ]
+  },
+  "constraints": {
+    "legal": [],
+    "geographic": "US-based, can receive payments via bank transfer or Stripe",
+    "anonymity_required": false,
+    "other": [
+      "Must work around school pickup schedule (3pm cutoff most days)",
+      "Has a partner who works full-time — not a backup income source"
+    ]
+  }
+}
