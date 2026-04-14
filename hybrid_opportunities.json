@@ -1,0 +1,137 @@
+[
+  {
+    "hybrid_name": "Freelance Automation Now, Productized SaaS Later",
+    "income_types_combined": [
+      "Project-based freelance (automation builds for B2B SaaS ops teams)",
+      "Productized SaaS subscription (meeting summarizer as paid product)"
+    ],
+    "sequencing": [
+      {
+        "phase": "Phase 1 (Weeks 1–8): Freelance first",
+        "action": "Reach out to warm network offering scoped automation projects: process audits, workflow automation builds, Notion/Airtable integrations. Target 1–2 paid engagements at $1,500–$3,000 each. Use the meeting summarizer as a demo and conversation starter.",
+        "trigger_to_next": "Close first paid project. Use the engagement to identify which type of build generates the most interest or repeat requests."
+      },
+      {
+        "phase": "Phase 2 (Weeks 6–12): Productize the highest-signal tool",
+        "action": "Identify which tool or automation type is requested repeatedly across freelance clients. Package it as a productized offering. Begin charging a small monthly fee ($29–$99) for the meeting summarizer to existing 2 users and any new ones.",
+        "trigger_to_next": "3 paying subscribers or 2 repeat productized project purchases."
+      },
+      {
+        "phase": "Phase 3 (Month 3+): Build lightweight SaaS wrapper around proven product",
+        "action": "Add a simple onboarding flow, payment layer (Stripe), and basic UI to the most-used tool. Continue freelance work to fund this phase. Target 10–20 subscribers at $49–$99/month.",
+        "trigger_to_next": "MRR covers 30% or more of monthly income target, allowing reduction of freelance hours."
+      }
+    ],
+    "fit_rationale": "He already has the hardest part of a SaaS product: a working tool with real users. The freelance phase uses his existing warm network to generate immediate income without cold outreach, while simultaneously validating which automation problems are worth productizing. The SaaS layer is not a bet — it is a deliberate extension of something already proven. His 30-hour weekly cap fits this model because Phase 1 requires bursts of project work, not continuous availability.",
+    "income_ceiling_12_months": 8500,
+    "major_milestones": [
+      {
+        "milestone": "First paid freelance project closed from warm network",
+        "target_timeframe": "Week 3"
+      },
+      {
+        "milestone": "3 paying subscribers on the meeting summarizer product",
+        "target_timeframe": "Month 2"
+      },
+      {
+        "milestone": "MRR from SaaS product reaches $500/month, freelance client base stable at 2 concurrent projects",
+        "target_timeframe": "Month 9"
+      }
+    ],
+    "execution_risk": {
+      "risk": "Freelance work expands to fill available time and SaaS product never gets built — the most common failure mode for operators-turned-freelancers",
+      "mitigation": "Set a hard rule Week 1: no more than 20 hours/week on any single freelance engagement. Reserve 4 hours/week explicitly for product work starting Week 6, non-negotiable."
+    },
+    "advantage_over_single": "Freelance alone is time-capped and income stops when work stops — dangerous for a father who cannot absorb gaps. SaaS alone takes 6–12 months to generate meaningful income, too slow given the 30-day need. The hybrid lets him earn immediately from freelance while the SaaS compounds quietly."
+  },
+  {
+    "hybrid_name": "Warm Outreach Consulting Plus Productized Meeting Tool",
+    "income_types_combined": [
+      "Consulting retainer or project work (ops process improvement for B2B SaaS companies)",
+      "Productized tool subscription (meeting notes summarizer at fixed monthly price)"
+    ],
+    "sequencing": [
+      {
+        "phase": "Phase 1 (Week 1–3): Direct, personal outreach to warmest contacts",
+        "action": "Contact former manager and 2 active tool users with a specific, concrete offer: a 2-week ops audit + recommendations document, priced at $1,200–$2,000. Simultaneously, convert the 2 active tool users to $29/month subscriptions with a 30-day grace period.",
+        "trigger_to_next": "One paid project or one paying subscriber."
+      },
+      {
+        "phase": "Phase 2 (Month 1–3): Expand through referrals and light LinkedIn presence",
+        "action": "Ask each completed client for one referral or LinkedIn recommendation. Publish 2 posts per month. Goal: 2 concurrent consulting clients ($1,500–$2,500/month each) plus 5–10 tool subscribers ($29–$49/month each).",
+        "trigger_to_next": "Monthly income from consulting and tool subscriptions combined reaches $3,500."
+      },
+      {
+        "phase": "Phase 3 (Month 4–8): Raise consulting rate, grow subscriber base, reduce total hours",
+        "action": "Increase consulting project rate to $3,000–$4,500. Use content and client referrals as primary acquisition. Target 15–25 tool subscribers. Reduce total client count to 2 maximum to protect the 30-hour cap.",
+        "trigger_to_next": "Combined income from consulting and subscriptions exceeds target consistently for 2 months."
+      }
+    ],
+    "fit_rationale": "This hybrid is the lowest-risk path because it activates existing assets — real tools with real users, a former manager relationship, and 6 years of domain knowledge — before requiring him to build anything new. The consulting work is high dollar-per-hour and he can sell it immediately into his warm network. The meeting tool is already built; it just needs a payment layer.",
+    "income_ceiling_12_months": 7200,
+    "major_milestones": [
+      {
+        "milestone": "At least one paying subscriber on the meeting summarizer (converted from existing free user)",
+        "target_timeframe": "Week 2"
+      },
+      {
+        "milestone": "Two concurrent consulting clients generating at least $2,500/month combined",
+        "target_timeframe": "Month 2"
+      },
+      {
+        "milestone": "Tool subscriber count reaches 15, consulting rate increased to $3,000+ per project",
+        "target_timeframe": "Month 7"
+      }
+    ],
+    "execution_risk": {
+      "risk": "The warm network of 80 LinkedIn connections and 2 active users is small. If first 3–4 warm outreach attempts don't convert, he has limited fallback without cold outreach.",
+      "mitigation": "Structure outreach as genuine re-connection before pitching. Ask former manager for a referral or introduction even if they can't hire directly. Use LinkedIn content to surface dormant connections who already have context on who he is."
+    },
+    "advantage_over_single": "Consulting alone runs into the rate ceiling fast at 30 hours per week — and every hour off is unpaid. The tool subscription layer converts time already spent into recurring income that doesn't require client hours. Subscription alone without consulting would take too long to reach meaningful income from a two-user base."
+  },
+  {
+    "hybrid_name": "Content-Led Inbound Feeding Freelance Automation Work",
+    "income_types_combined": [
+      "Inbound freelance lead generation through LinkedIn content",
+      "Project-based automation and ops consulting freelance work"
+    ],
+    "sequencing": [
+      {
+        "phase": "Phase 1 (Week 1–4): Content starts, warm outreach runs simultaneously",
+        "action": "Publish one high-quality, specific LinkedIn post per week on content angles. Simultaneously run warm outreach to the 80-connection network for immediate freelance work. Content is not expected to generate leads in Week 1 — it seeds the pipeline for Month 2. Warm outreach funds the gap.",
+        "trigger_to_next": "First piece of content generates a DM, comment, or connection from a stranger (not an existing contact)."
+      },
+      {
+        "phase": "Phase 2 (Month 2–4): Content compounds, leads begin to arrive",
+        "action": "Increase posting to 2x per week. One post should always be a specific story-based post about a problem solved or a tool built. Each new inbound lead arrives pre-qualified because they already understand the positioning.",
+        "trigger_to_next": "One paid project closed with a client who found him through LinkedIn content, not warm network."
+      },
+      {
+        "phase": "Phase 3 (Month 4–12): Content becomes primary acquisition channel, rates increase",
+        "action": "Because inbound leads arrive pre-qualified, begin raising rates. Use content to test messaging for the meeting summarizer product and soft-promote it within posts. Target 2 inbound project inquiries per month.",
+        "trigger_to_next": "Content generates enough inbound to maintain a 2-client pipeline without any active outreach."
+      }
+    ],
+    "fit_rationale": "Content creation is a strong fit for someone who can explain technical things to non-technical people. He has five specific content angles with genuine first-person credibility. The compounding nature of LinkedIn content means 3 months of consistent posting builds a distribution asset that continues generating leads while he's with his kids.",
+    "income_ceiling_12_months": 9500,
+    "major_milestones": [
+      {
+        "milestone": "First inbound DM or comment from a non-network stranger on a LinkedIn post",
+        "target_timeframe": "Week 4"
+      },
+      {
+        "milestone": "First paid project closed with a client sourced from content, not from warm network",
+        "target_timeframe": "Month 4"
+      },
+      {
+        "milestone": "Content alone generates 1–2 qualified inbound inquiries per month without active outreach",
+        "target_timeframe": "Month 9"
+      }
+    ],
+    "execution_risk": {
+      "risk": "Content takes 60–90 days to compound meaningfully. If warm outreach fails to generate income in the first 30 days, content is not yet mature enough to fill the gap.",
+      "mitigation": "Never run this as a standalone strategy in the first 30 days. Pair with direct warm outreach. Content is the Month 2+ engine; warm outreach is the Month 1 bridge."
+    },
+    "advantage_over_single": "Freelance alone requires constant active outreach to maintain a pipeline — exhausting for a father with 30 hours per week and a small network. Content alone doesn't generate income on a 30-day timeline. The hybrid uses freelance as the immediate income engine and content as the leverage layer that eventually reduces hours needed to maintain that income level."
+  }
+]

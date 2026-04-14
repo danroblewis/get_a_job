@@ -1,0 +1,125 @@
+[
+  {
+    "product_name": "BriefLoop",
+    "problem_statement": "B2B SaaS teams running recurring meetings have no lightweight way to auto-generate structured summaries, extract action items, and push them to Slack/Notion — without paying for full meeting intelligence platforms like Gong or Fireflies (noisy, over-engineered for small ops teams).",
+    "demand_evidence": [
+      "Fireflies.ai has 50k+ reviews on G2 — most 3-star complaints cite 'too complex' and 'too expensive for small teams'",
+      "Reddit r/productivity and r/remotework: recurring threads on meeting notes with no clear winner under $20",
+      "Indie Hackers MRR boards show multiple meeting-summary tools in $1k–$8k MRR range with 1-person teams, validating willingness to pay",
+      "Linear, Notion, and Slack App Directories all have 'meeting notes' as top-searched integration category",
+      "Two real users already using his existing summarizer — strongest possible demand signal"
+    ],
+    "target_user": "Operations managers or chiefs of staff at B2B SaaS companies with 10–75 employees who run 3–8 recurring meetings per week and are personally responsible for follow-through on action items",
+    "mvp_features": [
+      "Paste or upload meeting transcript → receive structured summary with decisions, action items, and owners",
+      "One-click push to Slack channel or Notion page (pre-formatted)",
+      "Recurring meeting template: system remembers your meeting type and formats output consistently each time",
+      "Weekly digest email: all action items from the week, grouped by owner",
+      "Simple dashboard showing open vs. closed action items across meetings"
+    ],
+    "build_estimate_hours": 55,
+    "claude_capabilities_used": [
+      "Long-context summarization with structured output (decisions/actions/owners extracted as JSON)",
+      "Custom system prompts per meeting type (standup vs. QBR vs. pipeline review)",
+      "Tone calibration: matches formality level to company culture via prompt tuning",
+      "Action item extraction with owner inference from speaker labels"
+    ],
+    "first_10_users_strategy": "Email the 2 existing users today asking for 3 warm intros each to ops managers they know. Offer lifetime 50% discount for early users. Post one before/after screenshot in Pavilion, RevGenius, and Monday.com Users Group. DM 20 chiefs of staff on LinkedIn with a cold offer: 'Send me one of your meeting transcripts, I'll summarize it free, no pitch.' Total outreach: ~35 targeted contacts.",
+    "technical_risk": {
+      "risk": "Zoom/Google Meet webhook integrations have inconsistent transcript formats and require OAuth app approval, which can take weeks",
+      "mitigation": "Launch v1 as paste-only — enough for MVP. Add integrations in week 3 only after first 5 paying users confirm core value."
+    },
+    "market_risk": {
+      "risk": "Notion AI and Google Workspace Duet are shipping native meeting summaries",
+      "mitigation": "Compete on recurring-meeting memory and action item tracking, not raw summarization. Native tools don't persist or track follow-through."
+    },
+    "pricing": {
+      "monthly_low": 19,
+      "monthly_mid": 49,
+      "monthly_high": 99
+    },
+    "mrr_at_100_users": 4900
+  },
+  {
+    "product_name": "OnboardIQ",
+    "problem_statement": "B2B SaaS customer success and ops teams spend 4–8 hours per new customer building a custom onboarding plan, pulling from scattered internal docs. There is no tool that takes a new customer's profile and generates a tailored 30/60/90-day onboarding checklist + email sequence draft in minutes.",
+    "demand_evidence": [
+      "r/CustomerSuccess has monthly threads on 'onboarding templates' — top complaint is templates are too generic",
+      "Gainsight and ChurnZero serve enterprise ($30k+/yr ACV) — nothing exists in the $50–$200/month range for SMB CS teams",
+      "Upwork has consistent postings for 'customer onboarding specialist' contractors at $40–$75/hr specifically to write onboarding docs",
+      "G2 category 'Customer Onboarding Software' — filter for <$500/mo and the list drops to 6, all generic project management wrappers",
+      "His B2B SaaS ops background means he has lived this pain personally"
+    ],
+    "target_user": "Customer success managers or heads of CS at B2B SaaS companies ($1M–$10M ARR) who are personally onboarding 5–20 new customers per month without a dedicated onboarding team",
+    "mvp_features": [
+      "Input form: customer name, use case, team size, primary goals, tech stack integrations needed",
+      "Output: structured 30/60/90-day onboarding checklist with task owners and suggested due dates",
+      "3-email onboarding sequence draft (welcome, day-7 check-in, day-30 QBR invite) personalized to customer profile",
+      "Save and clone: create a new onboarding plan from a previous one with light edits",
+      "Export to PDF or push directly to Notion/Google Doc"
+    ],
+    "build_estimate_hours": 40,
+    "claude_capabilities_used": [
+      "Structured document generation from sparse inputs",
+      "Email sequence drafting with context threading",
+      "Conditional logic via prompting: outputs differ based on company size and use case",
+      "Iterative refinement: user can say 'make the week 2 tasks less technical' and Claude adjusts"
+    ],
+    "first_10_users_strategy": "Post in Gainsight Community, Success Coaching Slack, and r/CustomerSuccess — offer to generate a free onboarding plan for their next 3 customers, no account required. Screenshot outputs and share as social proof. Contact 10 CS managers directly on LinkedIn: 'I built a tool that generates a tailored onboarding plan in 3 minutes — want me to run your next customer through it live on a 15-min call?'",
+    "technical_risk": {
+      "risk": "Output quality is highly dependent on the quality and specificity of the input — vague inputs produce generic outputs",
+      "mitigation": "Build a guided input form with inline examples and smart defaults. Add a 'quality check' prompt that flags vague inputs before generating."
+    },
+    "market_risk": {
+      "risk": "CS teams at target size often don't have a budget line for 'onboarding software' — they use spreadsheets and resist adding new tools",
+      "mitigation": "Position as a time-saver for the CS manager personally (saves 4 hrs/customer), not as 'software.' Price at $49/month under the no-approval-needed expense threshold."
+    },
+    "pricing": {
+      "monthly_low": 29,
+      "monthly_mid": 49,
+      "monthly_high": 99
+    },
+    "mrr_at_100_users": 4900
+  },
+  {
+    "product_name": "ProcedurePilot",
+    "problem_statement": "Operations managers at growing B2B SaaS companies are constantly asked to document processes, but writing SOPs is painful and immediately outdated. There is no tool that takes a rough brain-dump, Loom transcript, or bullet list and outputs a clean, structured SOP with roles, steps, edge cases, and a linked decision tree.",
+    "demand_evidence": [
+      "Tettra, Guru, and Confluence solve knowledge storage, not knowledge creation — the authoring gap is unaddressed",
+      "Reddit r/operations and r/smallbusiness have consistent top posts asking 'how do you document your processes' — 300–500 upvote threads with no consensus tool",
+      "Upwork shows 200+ active postings for 'process documentation' and 'SOP writer' at $25–$60/hr",
+      "Google Trends: 'SOP template' has stable, high search volume with no dominant sub-$50/mo tool capturing it",
+      "His ops background gives him direct pattern recognition on what a good SOP looks like"
+    ],
+    "target_user": "Operations managers or COOs at B2B SaaS companies with 15–100 employees who are personally responsible for keeping internal processes documented and are currently behind on it",
+    "mvp_features": [
+      "Brain-dump input: paste rough description, transcript, or bullet list",
+      "Output: formatted SOP with Title, Purpose, Scope, Roles & Responsibilities, Step-by-step procedure, Edge cases, Related docs",
+      "Role tagging: user specifies who is involved, Claude assigns steps to the right role automatically",
+      "Version history: re-run with updated inputs and see what changed",
+      "Export to Notion, Confluence, or Google Doc with one click"
+    ],
+    "build_estimate_hours": 45,
+    "claude_capabilities_used": [
+      "Structured document generation from unstructured natural language input",
+      "Role inference: identifying which step belongs to which team/person from context",
+      "Edge case generation: Claude proactively surfaces common exceptions based on domain knowledge",
+      "Diff comparison: run two versions of a process description, output what changed in the SOP"
+    ],
+    "first_10_users_strategy": "Post in Pavilion, Operations Nation Slack, and r/operations: 'I'll turn your messiest process into a clean SOP for free — DM me a brain dump.' Do 5–10 of these manually to validate output quality and collect testimonials. Then launch a $29/month tier and email those same users with a discount code.",
+    "technical_risk": {
+      "risk": "SOP output format varies enormously by industry and company culture",
+      "mitigation": "Build 4–5 SOP templates (software ops, sales process, customer success, HR onboarding, finance) that users select upfront."
+    },
+    "market_risk": {
+      "risk": "Notion AI and Confluence AI are shipping 'write this page' features",
+      "mitigation": "Compete on SOP-specific structure and quality — role-assigned, edge-case-aware SOPs that Notion AI doesn't produce."
+    },
+    "pricing": {
+      "monthly_low": 29,
+      "monthly_mid": 59,
+      "monthly_high": 129
+    },
+    "mrr_at_100_users": 5900
+  }
+]

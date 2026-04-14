@@ -1,0 +1,54 @@
+[
+  {
+    "content_title": "Ops Without Code",
+    "niche_and_angle": "Practical Claude Code automations built specifically for non-technical operations managers at B2B SaaS companies — not tutorials for developers, but working demos built by someone who has actually done the ops job and knows which 20% of automations deliver 80% of the value",
+    "platform": "LinkedIn + weekly email newsletter (Beehiiv)",
+    "platform_rationale": "Ops managers and chiefs of staff at B2B SaaS companies are densely concentrated on LinkedIn. The newsletter captures the most engaged readers from LinkedIn into an owned channel. This pairing (LinkedIn for discovery, newsletter for depth and monetization) is the proven flywheel for B2B niche creators.",
+    "monetization": {
+      "method": "Newsletter sponsorships from B2B SaaS tools (Notion, Make.com, Loom, Airtable) at $500–$1500/issue once list exceeds 2,000 subscribers; digital product ($149 'Ops Automation Starter Pack'); 1:1 'Automation Office Hours' at $149/hr",
+      "realistic_timeline_months": 6,
+      "realistic_monthly_at_12_months": 3200
+    },
+    "first_10_pieces": [
+      "I built a meeting summarizer in one afternoon using Claude Code — here's the exact prompt I used",
+      "The 5 ops meetings every SaaS team should be summarizing automatically (and how to do it for free)",
+      "How I automated my weekly pipeline review report in 3 hours — no dev team needed",
+      "Claude Code vs. Zapier for ops automation: an honest comparison from someone who has used both",
+      "The ops manager's cheat sheet: 10 Claude prompts that replace 10 hours of manual work",
+      "What getting laid off from SaaS taught me about which processes were actually necessary",
+      "I asked Claude to write our customer onboarding SOP from a Loom transcript — here's what happened",
+      "Why your ops team's biggest bottleneck is documentation, not headcount (and how AI fixes it)",
+      "How to explain AI automation to a CEO who thinks ChatGPT is just a chatbot",
+      "The automation I wish I had built 3 years ago: a Slack digest that summarizes all my open action items every Monday at 8am"
+    ],
+    "audience_bootstrap_strategy": "Week 1: Post 3 LinkedIn pieces using existing meeting summarizer content — before/after screenshots, honest reflection on building it. Tag the 2 actual users with their permission. Manually connect with 50 ops managers at 10–200 person SaaS companies. Week 2: Comment substantively on 10 posts per day from ops managers who already have audiences. Week 3–4: Guest post or newsletter swap with one adjacent newsletter in the 500–3000 subscriber range. Target: 100 email subscribers in 30 days.",
+    "north_star_metric_90_days": "Email newsletter subscriber count — target 400 subscribers by day 90, with open rate above 42%",
+    "differentiation": "Every other AI content creator explains what AI can do. This channel shows a real ops manager's actual workflow being automated, with real output screenshots, real edge cases, and honest failure modes. The author is not a developer cosplaying as an ops person — he has done the job for 6 years and was recently laid off, which creates a narrative tension that AI tutorial channels completely lack."
+  },
+  {
+    "content_title": "The Runway Journal",
+    "niche_and_angle": "Honest, week-by-week documentation of building a consulting/product business after a tech layoff — 8-week cash runway, a father, part-time hours, and Claude Code as the primary tool. Radical specificity: actual revenue numbers, actual client conversations, actual failures, actual Claude prompts.",
+    "platform": "Substack",
+    "platform_rationale": "Substack's internal discovery network has become a genuine distribution engine for personal narrative newsletters in the 'career transition' and 'building in public' categories. The format rewards long-form honesty. Supports paid subscriptions natively.",
+    "monetization": {
+      "method": "Paid Substack subscription at $9/month or $79/year — unlocks full weekly journal entries, the actual Claude prompts used each week, and a private Discord for others in career transition. At 12 months, add a $299 self-paced course: 'Build Your First AI Product in 30 Days on a Layoff Budget'",
+      "realistic_timeline_months": 4,
+      "realistic_monthly_at_12_months": 2800
+    },
+    "first_10_pieces": [
+      "Week 0: I got laid off. Here's my exact financial runway, my plan, and what I'm building — numbers included",
+      "Week 1: I spent 40 hours this week on one client proposal. Here's what Claude wrote and what I rewrote",
+      "The meeting summarizer that 2 people actually use: how I built it, what it does, and why I haven't charged for it yet",
+      "What 6 years in B2B SaaS ops actually taught me (and what I learned it taught me nothing about)",
+      "Week 2: First paying client. Here's the exact contract, the hourly rate I quoted, and whether I think I underpriced",
+      "I showed a non-technical COO how Claude works in real-time. Here's what surprised her",
+      "The honest math: can I replace my SaaS salary with consulting + a micro-SaaS in 8 weeks?",
+      "Week 3: I almost gave up on the product. Here's what changed my mind (and what Claude said when I described the problem)",
+      "The 3 automations every ops team should build before hiring their next coordinator",
+      "Week 6: Revenue update. What worked, what didn't, and what I'm doing differently in month 2"
+    ],
+    "audience_bootstrap_strategy": "Day 1: Post the 'Week 0' piece publicly on Substack and send personal messages to former colleagues — a direct ask, not a broadcast. Target 30 personal outreach messages. Day 3–7: Submit to Substack's 'Reads' curation and request recommendations from 3 complementary newsletters in the layoff/career transition/indie hacking space. Cross-post one excerpt to r/layoffs and r/cscareerquestions. Week 2–4: Comment on other Substack writers in adjacent niches. Target: 100 subscribers in 30 days.",
+    "north_star_metric_90_days": "Paid subscriber conversion rate — target 8% of free subscribers converting to paid by day 90, minimum 30 paid subscribers",
+    "differentiation": "The 200 other AI content creators are either developers showing off what Claude can build, or marketers explaining AI strategy. None of them are a laid-off father with 8 weeks of runway, publicly documenting real revenue numbers, real client rejections, real prompt failures, and real fear — while building actual working tools. The financial pressure, ops domain credibility, Claude Code specificity, and radical transparency create a narrative that is genuinely unreplicable."
+  }
+]

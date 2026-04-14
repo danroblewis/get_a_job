@@ -1,0 +1,148 @@
+[
+  {
+    "service_title": "AI Workflow Readiness Advisory for B2B SaaS Ops Teams",
+    "advisory_question": "Which of our current ops workflows should we automate with AI in the next 90 days, and what does a realistic implementation actually look like for a team our size?",
+    "target_company": {
+      "industry": "B2B SaaS",
+      "size": "25–150 employees (Series A or B)",
+      "trigger_event": "Recently raised a round and is scaling ops, OR just announced layoffs and needs to do more with fewer ops headcount, OR hired a new VP of Ops or COO in the last 90 days"
+    },
+    "credibility_basis": "Six years inside B2B SaaS ops means he knows the exact workflows these companies run — renewal ops, customer onboarding checklists, QBR prep, internal ticketing, CS handoff. He's built real Claude Code automations that already run in production (meeting summarizer, email triage). He can translate AI capability to non-technical ops leaders without condescension — which is rare.",
+    "engagement_structure": {
+      "kickoff": "2-hour discovery session: map current ops workflows, identify top 10 manual time sinks, assess team's technical comfort level and existing tool stack",
+      "deliverables": [
+        "Automation Opportunity Matrix (ranked by ROI and implementation difficulty)",
+        "3 prioritized automation briefs with tool recommendations, estimated build hours, and make-vs-buy analysis",
+        "90-day implementation roadmap with owner assignments",
+        "1-page executive summary suitable for sharing with the CEO or board"
+      ],
+      "duration": "3 weeks",
+      "involvement": "6–8 hours/week"
+    },
+    "rate_card": {
+      "introductory": 150,
+      "standard": 225,
+      "premium": 325,
+      "rationale": "Introductory rate for first 2 clients to build case studies — total ~18 hours at $150/hr = $2,700. Standard once one case study exists = ~$4,000. Premium justified after 2–3 case studies showing measurable ops hours saved."
+    },
+    "first_client_actions": [
+      "Message former manager: 'I'm doing a small number of AI ops advisory engagements for SaaS companies. I'd love a 20-minute call to catch up and see if you know anyone in your network who is trying to figure out where AI fits in their ops stack.'",
+      "Search LinkedIn for 'VP of Operations' at B2B SaaS companies with 25–150 employees that raised a Series A or B in the last 6 months. Build a list of 15 targets.",
+      "Write one specific LinkedIn post: 'After 6 years in B2B SaaS ops, here are the 3 workflows I see every ops team still doing manually that Claude can handle in under a week.' End with DM CTA.",
+      "Send 5 personalized LinkedIn DMs per day to target list, referencing a specific thing about their company.",
+      "Offer a free 30-minute 'automation triage call' to the first 3 respondents to lower the barrier."
+    ],
+    "discovery_questions": [
+      "If I looked at how your ops team spends their time over a typical week, what are the 2–3 tasks they complain about most or that eat the most hours without feeling strategic?",
+      "Have you already tried any AI tools — Copilot, ChatGPT, Zapier AI — and if so, what worked, what didn't, and what made you skeptical?",
+      "When you imagine your ops team 6 months from now running 30% more efficiently, what specific output looks different?",
+      "Who on your ops team is most excited about automation, and who is most resistant — and do you know why?",
+      "What does success look like for this engagement in your mind — a document you can take to your CEO, a working prototype, or something else?"
+    ],
+    "avoid": [
+      "Companies where the CEO is the most technical person — they will second-guess every recommendation",
+      "Companies that have already bought an AI platform and want validation it was the right call",
+      "Ops leads who want a vendor comparison matrix — this is RFP work disguised as advisory",
+      "Regulated industries (healthcare, fintech) without legal/compliance cleared for AI",
+      "Any client who won't commit to a defined scope and wants to 'just see where it goes'"
+    ]
+  },
+  {
+    "service_title": "Claude Code Implementation Sprint for Non-Technical Ops Leaders",
+    "advisory_question": "We know we need to build an AI automation for this specific workflow — how do we scope it correctly, and can we see a working version before we commit to a full build?",
+    "target_company": {
+      "industry": "B2B SaaS or operations-intensive professional services",
+      "size": "10–60 employees",
+      "trigger_event": "Ops lead or founder attended an AI demo or saw a competitor using automation — convinced they need something but have no technical staff to evaluate or build it"
+    },
+    "credibility_basis": "He's a former ops practitioner who also builds with Claude Code — not an AI vendor, not a generalist developer. He can look at an ops workflow and immediately know whether it's genuinely automatable or a trap. Two real clients are using his meeting summarizer in production.",
+    "engagement_structure": {
+      "kickoff": "90-minute scoping session: define the exact workflow, agree on inputs/outputs, identify edge cases, set success criteria",
+      "deliverables": [
+        "Workflow scope document (inputs, outputs, edge cases, success criteria)",
+        "Working Claude Code prototype within 5 business days of kickoff",
+        "Test report: 20 sample inputs run through the agent with annotated output quality review",
+        "Handoff documentation: how to run it, update the prompt, add new cases",
+        "60-minute live handoff and training session"
+      ],
+      "duration": "2 weeks",
+      "involvement": "8–10 hours/week"
+    },
+    "rate_card": {
+      "introductory": 150,
+      "standard": 200,
+      "premium": 300,
+      "rationale": "At introductory rate: $2,700 for a 2-week sprint. Far cheaper than a dev agency ($8K–$20K for equivalent output) and faster than any internal hire. Premium rate for workflows involving API integrations."
+    },
+    "first_client_actions": [
+      "Contact the 2 existing meeting summarizer users: 'The summarizer has been running for a few months — I'd love to hear how it's working and whether there's another workflow where something similar would save you time. I'm taking on a few paid implementation projects this month.'",
+      "Identify 1 workflow from each existing user that could be a second build and propose a scoped follow-on engagement at introductory rate.",
+      "Post a specific LinkedIn case study: the meeting summarizer, what it does, how long it took, what the team said after 8 weeks of use.",
+      "Create a Contra or Upwork profile with portfolio entries for the meeting summarizer and email triage agent.",
+      "Join RevOps Co-op Slack and answer 3 questions per week related to ops automation without pitching."
+    ],
+    "discovery_questions": [
+      "Walk me through this workflow step by step as it works today — who does what, in what tool, and how long does each step take?",
+      "What's the cost of this workflow going wrong — a missed follow-up, a late deliverable, an error? How often does that happen now?",
+      "After we build this, who on your team will be responsible for using and maintaining it — and how technical are they?",
+      "Have you already tried to solve this with an off-the-shelf tool like Zapier or Make? What happened?",
+      "If this automation worked perfectly for 90 days, what would you want to automate next?"
+    ],
+    "avoid": [
+      "Clients who describe the workflow vaguely and resist getting specific during scoping",
+      "Workflows that touch PII, financial records, or healthcare data without a legal framework",
+      "Clients who want to own the Claude API key but won't set it up before kickoff",
+      "Clients where the person you're building for isn't the person you're selling to",
+      "Clients who ask for a 'monthly retainer to maintain the bot' without specifying what maintenance means"
+    ]
+  },
+  {
+    "service_title": "Fractional AI Ops Advisor (Monthly Retainer)",
+    "advisory_question": "As we keep adding AI tools and automations, how do we make sure our ops stack is actually coherent — and how do we evaluate new tools and train our team without a dedicated AI person on staff?",
+    "target_company": {
+      "industry": "B2B SaaS",
+      "size": "20–100 employees",
+      "trigger_event": "Company has adopted 2–4 AI tools (Copilot, Notion AI, ChatGPT Teams, a custom Zapier AI workflow) and is starting to feel fragmentation — different teams doing different things, no coherent strategy"
+    },
+    "credibility_basis": "He's credible across two axes simultaneously: technical enough to evaluate AI tooling, and operationally experienced enough that recommendations don't create new problems. Most AI consultants are technical with no ops background. Most ops consultants have no AI fluency. He is both.",
+    "engagement_structure": {
+      "kickoff": "3-hour onboarding: full audit of current AI tool usage across all teams, documentation of existing automations, identification of top 3 priorities for the quarter",
+      "deliverables": [
+        "Monthly: AI Tool Stack Review — what's being used, what's not, what should be cut or expanded",
+        "Monthly: 1 new automation recommendation memo with build vs. buy analysis",
+        "On-demand: review of any AI vendor the client is evaluating (response within 48 hours)",
+        "Quarterly: ops team AI literacy session (60 minutes)",
+        "Quarterly: updated 90-day roadmap"
+      ],
+      "duration": "Minimum 3-month commitment, month-to-month after that",
+      "involvement": "8–12 hours/month"
+    },
+    "rate_card": {
+      "introductory": 1200,
+      "standard": 1800,
+      "premium": 2800,
+      "rationale": "Retainer priced per month. Introductory $1,200/month for first client. Standard $1,800/month once one case study exists — below market for fractional COO ($3K–$8K/month). At 2 standard + 1 introductory clients: $4,800/month recurring."
+    },
+    "first_client_actions": [
+      "Write a LinkedIn article: 'What I learned after auditing AI tool usage at 3 SaaS companies: most teams are spending money on AI features nobody is using.'",
+      "Reach out to former manager with a specific pitch for a discounted first month.",
+      "Search LinkedIn for SaaS companies 20–100 employees that have posted about AI adoption — these signal uncoordinated AI adoption. DM the Head of Ops or COO.",
+      "Create a one-page PDF: 'What a Fractional AI Ops Advisor Does in Month 1' — use as leave-behind after every discovery call.",
+      "Goal: 1 signed retainer client within 3 weeks via 5 DMs/day for 10 days → 3 discovery calls → 1 proposal → 1 signed."
+    ],
+    "discovery_questions": [
+      "If I asked each person on your ops team to list every AI tool they used last week — including personal ChatGPT, browser extensions, anything — what do you think I'd find?",
+      "When a vendor pitches you an AI feature, what's your current process for deciding whether to buy it?",
+      "In the last 6 months, has anyone on the team built an automation you found out about after the fact?",
+      "What's the biggest thing you're worried about getting wrong with AI in your ops stack?",
+      "If I joined your team for 90 days as your AI ops advisor, what would you want to say at the end of those 90 days that you can't say today?"
+    ],
+    "avoid": [
+      "Companies that want a retainer but expect unlimited availability with no defined scope",
+      "Companies where the CEO micromanages the ops function",
+      "Companies in the middle of a major platform migration",
+      "Clients who want month-to-month with no minimum commitment from the start",
+      "Companies that have already hired an 'AI lead' who views your engagement as a threat"
+    ]
+  }
+]

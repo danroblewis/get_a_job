@@ -1,0 +1,137 @@
+[
+  {
+    "offering_title": "Claude Code Meeting Summarizer Setup for Teams",
+    "one_sentence_pitch": "I build and deploy a working AI meeting summarizer in your existing tools so your team stops losing decisions and action items in Zoom recordings.",
+    "exact_deliverable": "A deployed Claude Code agent that ingests meeting transcripts (via Zoom/Otter/manual paste), extracts decisions, action items, and owners, and posts a formatted summary to Slack or Notion — tested with 5 real meetings from the client's team.",
+    "buyer_persona": {
+      "job_title": "Head of Operations or Chief of Staff",
+      "company_size": "15–80 employees",
+      "industry": "B2B SaaS",
+      "pain_point": "Meetings produce no reliable record of who owns what; follow-through dies in Slack threads and forgotten Zoom recordings"
+    },
+    "finding_buyers": {
+      "platforms": ["LinkedIn", "Upwork", "Contra"],
+      "communities": ["Lenny's Slack (product/ops)", "SaaStr community", "Chief of Staff Network Slack", "Notion's ambassador community"],
+      "search_terms": ["meeting notes automation", "Notion AI ops", "Slack meeting summary bot", "ops automation SaaS"],
+      "outreach_channel": "LinkedIn DM to Heads of Ops at Series A–B SaaS companies, referencing the 2 existing users of the tool"
+    },
+    "pricing": {
+      "low": 800,
+      "mid": 1500,
+      "high": 2500,
+      "pricing_model": "fixed project",
+      "pricing_rationale": "Buyer saves 2–5 hrs/week of manual note-taking across a team — at $2500 the ROI is immediate"
+    },
+    "hours_to_deliver": 12,
+    "sample_proposal": "Hi Sarah — I noticed Acme is hiring an ops coordinator, which usually means meetings are outpacing your team's ability to track decisions. I recently built a meeting summarizer using Claude Code for two former colleagues at Series B SaaS companies — it pulls action items, owners, and key decisions from any transcript and posts them directly to Notion within 60 seconds of the meeting ending. I can build and deploy the same thing for your team in under a week, tuned to how your meetings actually run. Fixed fee, no ongoing subscription, and I'll train whoever owns it on day one. Happy to show you a live demo — 20 minutes, no deck.",
+    "first_client_strategy": "Message both ex-colleagues who already use the summarizer and ask for one warm intro to their Head of Ops or a peer at another company. Offer a $500 pilot price to the first referral client in exchange for a written testimonial."
+  },
+  {
+    "offering_title": "AI-Powered Email Triage Agent for Ops Teams",
+    "one_sentence_pitch": "I build a Claude Code agent that reads your ops inbox, categorizes tickets, drafts replies, and routes escalations — so your team stops starting every day by triaging email.",
+    "exact_deliverable": "A working email triage agent connected to Gmail or Outlook via API: categorizes incoming ops emails into 5–8 custom labels, drafts context-aware replies for the 3 most common request types, and flags urgent items to Slack. Delivered with documentation and a 1-hour handoff call.",
+    "buyer_persona": {
+      "job_title": "Operations Manager or Customer Success Ops Lead",
+      "company_size": "20–150 employees",
+      "industry": "B2B SaaS or professional services",
+      "pain_point": "Ops inbox is a black hole — requests get lost, response times are inconsistent, and the same 10 questions get answered manually every week"
+    },
+    "finding_buyers": {
+      "platforms": ["Upwork", "Toptal", "LinkedIn Services Marketplace"],
+      "communities": ["RevOps Co-op Slack", "SalesOps Society", "Pavilion (ops track)"],
+      "search_terms": ["email automation ops", "Gmail triage automation", "Claude API email", "ops inbox automation consultant"],
+      "outreach_channel": "LinkedIn outreach to RevOps and CS Ops titles at SaaS companies with 20–100 employees"
+    },
+    "pricing": {
+      "low": 1200,
+      "mid": 2000,
+      "high": 3500,
+      "pricing_model": "fixed project",
+      "pricing_rationale": "Buyer saves 1–2 hrs/day per ops person — a $2000 build pays back in under 3 weeks"
+    },
+    "hours_to_deliver": 16,
+    "sample_proposal": "Hi Marcus — I saw you're scaling your CS ops team at Brightpath and just posted for an ops coordinator. Before you hire, I want to show you something: I build AI email triage agents using Claude Code that can handle 60–80% of a typical ops inbox automatically — categorizing, drafting, and routing — without any new software subscriptions. I spent 6 years in B2B SaaS ops and I've built this exact system for teams managing high-volume request queues. I can scope your inbox in a 30-minute call and have a working prototype in front of you within 5 business days. Fixed price, you own it forever. Worth a look before the next hire?",
+    "first_client_strategy": "Search LinkedIn for 'Operations Manager' at B2B SaaS companies that posted an ops coordinator role in the last 30 days. Send 10 personalized DMs referencing the job post as evidence of the pain point. Offer a free 30-minute inbox audit."
+  },
+  {
+    "offering_title": "Notion/Airtable Ops System Build for Founders",
+    "one_sentence_pitch": "I build a lightweight operations system in Notion or Airtable — including AI-assisted workflows — so early-stage founders can run their business without hiring an ops person yet.",
+    "exact_deliverable": "A configured Notion or Airtable workspace with project tracker, client pipeline, recurring task system, and one Claude-assisted automation. Delivered with a Loom walkthrough and 30-day async support.",
+    "buyer_persona": {
+      "job_title": "Founder or Co-Founder",
+      "company_size": "1–10 employees (pre-Series A)",
+      "industry": "B2B SaaS, consulting, or professional services",
+      "pain_point": "Running the business out of a mix of Google Docs, spreadsheets, and Slack DMs — nothing connects, onboarding a new hire would be chaos"
+    },
+    "finding_buyers": {
+      "platforms": ["Contra", "Upwork", "IndieHackers"],
+      "communities": ["IndieHackers", "YC Startup School alumni Slack", "Notion's creator community"],
+      "search_terms": ["Notion setup for startups", "startup ops consultant", "founder ops system"],
+      "outreach_channel": "Twitter/X replies to founders complaining about ops chaos; IndieHackers posts"
+    },
+    "pricing": {
+      "low": 600,
+      "mid": 1200,
+      "high": 2000,
+      "pricing_model": "fixed project",
+      "pricing_rationale": "Founders at this stage pay $500–$2000 for a single day of fractional COO time — this delivers a permanent system for a comparable price"
+    },
+    "hours_to_deliver": 10,
+    "sample_proposal": "Hi Jamie — I've been following Loopline's build on IndieHackers and it looks like you're at the stage where the product is working but the back-of-house is held together with duct tape. I spent 6 years in SaaS ops and I now build lightweight operating systems for founders in Notion and Airtable — usually in under a week. I include one AI automation (I use Claude Code) so your system actually stays current without manual data entry. Fixed price, you own everything, no lock-in.",
+    "first_client_strategy": "Post one detailed IndieHackers comment in a 'what tools do you use for ops' discussion with a real Notion system screenshot. Offer a free workspace audit to the first 3 respondents."
+  },
+  {
+    "offering_title": "90-Min AI Automation Audit for Ops Leaders",
+    "one_sentence_pitch": "In a single structured session, I map your top 5 manual ops bottlenecks and hand you a concrete automation plan with estimated hours and tool recommendations.",
+    "exact_deliverable": "A 90-minute Zoom session + a written Automation Opportunity Report within 48 hours: identifies 5 specific manual workflows, ranks them by automation ROI, recommends exact tools, and includes a 1-page implementation roadmap.",
+    "buyer_persona": {
+      "job_title": "VP of Operations or Director of Operations",
+      "company_size": "30–200 employees",
+      "industry": "B2B SaaS or operations-heavy professional services",
+      "pain_point": "Knows AI should be helping the ops team but has no idea where to start — every vendor is selling something, no one gives unbiased specific guidance"
+    },
+    "finding_buyers": {
+      "platforms": ["LinkedIn Services Marketplace", "Clarity.fm"],
+      "communities": ["Pavilion", "RevOps Co-op", "Chief of Staff Network"],
+      "search_terms": ["ops automation consultant", "AI ops audit", "workflow automation advisor"],
+      "outreach_channel": "LinkedIn outreach targeting VP Ops and Director Ops at B2B SaaS"
+    },
+    "pricing": {
+      "low": 300,
+      "mid": 500,
+      "high": 750,
+      "pricing_model": "fixed project",
+      "pricing_rationale": "Low-risk entry product — 40% of buyers hire for implementation after receiving the report"
+    },
+    "hours_to_deliver": 5,
+    "sample_proposal": "Hi Priya — I noticed Cloudvance is scaling its ops team after your Series B. Most teams I talk to know they're leaving automation ROI on the table but don't have a clear picture of which workflows are actually worth automating. I offer a focused 90-minute audit and deliver a written report within 48 hours that tells you exactly which 5 to tackle first, in what order, with what tools. The audit is $500 flat. No upsell pressure. Just a clear map.",
+    "first_client_strategy": "Post on LinkedIn: 'I'm offering 3 free 30-minute ops automation audits this week for B2B SaaS ops leaders.' Convert one free audit into a paid full audit ($500). Use as a case study."
+  },
+  {
+    "offering_title": "Job Application AI Screener for Hiring Managers",
+    "one_sentence_pitch": "I build a Claude Code agent that screens inbound applications against your criteria and delivers a ranked shortlist with reasoning — so you stop spending hours reading 200 resumes.",
+    "exact_deliverable": "A deployed Claude Code screening agent that accepts resume uploads or form submissions, scores each candidate against 8–12 custom criteria, and outputs a ranked Airtable or Notion table with scores, flags, and a one-paragraph summary per candidate. Tested against 20 real applications before handoff.",
+    "buyer_persona": {
+      "job_title": "Founder, COO, or HR Manager",
+      "company_size": "10–75 employees",
+      "industry": "B2B SaaS or professional services",
+      "pain_point": "Drowning in applications for a role — manually reading resumes is eating 10–15 hours the founder or ops lead doesn't have"
+    },
+    "finding_buyers": {
+      "platforms": ["LinkedIn", "Contra", "Upwork"],
+      "communities": ["YC Startup School Slack", "Lenny's Slack"],
+      "search_terms": ["AI resume screener", "Claude hiring automation", "applicant screening tool"],
+      "outreach_channel": "Monitor LinkedIn job posts from 10–75 person SaaS companies actively hiring; DM the hiring manager"
+    },
+    "pricing": {
+      "low": 900,
+      "mid": 1600,
+      "high": 2800,
+      "pricing_model": "fixed project",
+      "pricing_rationale": "Buyer saves 10–20 hours of manual review per hiring cycle — payback is immediate on the first role"
+    },
+    "hours_to_deliver": 14,
+    "sample_proposal": "Hi Derek — I saw you posted a Senior AE role last week. Screening 150+ resumes for a sales role is brutal. I build AI screeners using Claude Code that read every resume against your specific criteria and hand you a ranked shortlist with a one-paragraph summary per candidate. I can have a working screener live for your AE search within 5 business days. Fixed fee, you own it, and it works for every future role posted to the same criteria.",
+    "first_client_strategy": "Search LinkedIn for founder or COO posts complaining about resume volume in the last 7 days. Respond publicly then DM a demo offer. Also search for active job posts from 15–50 person SaaS companies and cold DM the hiring manager."
+  }
+]

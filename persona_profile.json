@@ -1,0 +1,110 @@
+{
+  "positioning_statements": {
+    "default": "For B2B SaaS operators and small teams drowning in repetitive manual work, I build lightweight automations and process fixes so that your team stops losing hours to tasks a script could handle. Unlike a generalist developer or a large agency, I bring both the operational experience to understand why the process is broken and the technical ability to actually fix it.",
+    "freelance_variant": "For growing SaaS companies with a small ops team, I scope and deliver automation projects in 2–4 weeks so that you get a working solution without a full-time hire. Unlike a freelance dev who needs your process explained to them, I have lived on the ops side — I already speak your language.",
+    "saas_variant": "For solo operators and small ops teams who run on Notion, Airtable, and too many browser tabs, I provide an AI-powered meeting and email triage toolkit so that the admin layer stops eating your day. Unlike generic no-code tools, this is built by someone who ran B2B SaaS operations and knows exactly what actually gets missed.",
+    "consulting_variant": "For B2B SaaS founders and ops leaders who know their processes are costing them money but cannot pinpoint where, I audit and rebuild the broken workflows so that headcount pressure drops and handoffs stop failing. Unlike a large consultancy, I do the work myself and stay until it is actually working.",
+    "content_variant": "For non-technical operators at SaaS companies trying to figure out what AI tools are actually worth using, I translate the noise into concrete, tested recommendations so that you can make smart tool decisions without needing an engineering degree."
+  },
+  "credibility_narrative": "I spent six years in B2B SaaS operations, where my job was to find the places where process was leaking time and money and close them. I built internal automations in JavaScript and Python, managed integrations across REST APIs, and became the person non-technical teammates came to when they needed something technical explained or actually done. After a layoff, I spent my downtime building AI-powered tools for my own workflow — an email triage agent and a meeting notes summarizer that two colleagues now use actively — which gave me a practitioner's understanding of where Claude and LLM-based tooling genuinely add value versus where they are just hype. I work best with small ops teams and founders who want concrete deliverables, fast turnaround, and someone who will still be reachable after the project closes.",
+  "bios": {
+    "one_line": "B2B SaaS ops veteran who automates the work that should not be manual.",
+    "twitter_style": "6 yrs B2B SaaS ops. I build automations + AI tools for teams drowning in process debt. JS/Python/Node. Former operator, current builder.",
+    "full": "I spent six years as a mid-level operator inside B2B SaaS companies, working on the unglamorous but important stuff: fixing broken handoffs, automating repetitive tasks, and translating technical possibilities into language that non-technical stakeholders could actually act on. My tools were Python, JavaScript, REST APIs, SQL, Notion, and Airtable — and my real job was making sure the machine kept running without requiring more headcount.\n\nAfter a layoff, I did not stop building. I created an AI-powered email triage agent and a meeting notes summarizer, both of which are now actively used by colleagues. That experience gave me something most AI consultants lack: I have actually deployed these tools into real workflows and learned where they break.\n\nI now work with small SaaS teams and solo operators as a freelance automation and operations consultant. I take on projects with defined scope and concrete deliverables — no retainers that drag on, no recommendations without implementation. If your team is losing hours to something that should be automated, or if you are trying to figure out where AI tools genuinely fit into your stack, that is exactly the kind of problem I work on.\n\nI am US-based, work remotely, and keep a small client load so I can do each engagement well."
+  },
+  "proof_points": [
+    {
+      "claim": "I build AI automation tools that real users adopt and keep using.",
+      "evidence": "Two former colleagues are active users of a meeting notes summarizer built independently after the layoff. Not a demo — integrated into their actual workflow.",
+      "how_to_deploy": "Mention in proposals as validation that tools survive contact with real users. Offer the tool as a reference or case study. Ask one of the two users for a one-sentence written testimonial."
+    },
+    {
+      "claim": "I have six years of direct B2B SaaS operations experience at the practitioner level.",
+      "evidence": "Six years of employment in operations and process roles within B2B SaaS companies.",
+      "how_to_deploy": "Lead with this in LinkedIn headline and proposal introductions. Positions you as a domain peer rather than an outside vendor."
+    },
+    {
+      "claim": "I can build and ship functional automation tools, not just strategy documents.",
+      "evidence": "Active Claude Code-based agents (email triage, meeting summarizer, job screener) built independently post-layoff, with demonstrated user adoption.",
+      "how_to_deploy": "Use as evidence in outreach to warm leads. Publish a short walkthrough of one tool on LinkedIn or a public GitHub repo to make the proof externally verifiable."
+    },
+    {
+      "claim": "I bridge the technical-nontechnical gap that most operators and consultants cannot.",
+      "evidence": "Career history of translating technical solutions to non-technical stakeholders in SaaS ops roles, combined with hands-on coding ability in JS, Python, Node.js, and SQL.",
+      "how_to_deploy": "Frame explicitly in proposals for companies where the decision-maker is non-technical but the work is technical."
+    },
+    {
+      "claim": "My work has immediate, practical application — not theoretical.",
+      "evidence": "Tools built during job search are solving real problems for real people right now.",
+      "how_to_deploy": "Reference in content and proposals as evidence that everything shared is tested, not hypothetical."
+    }
+  ],
+  "credibility_gap": {
+    "exists": true,
+    "gap_description": "No public-facing work. The tools exist and have users, but there is no externally verifiable proof — no case study, no GitHub, no LinkedIn post, no testimonial. For a stranger evaluating a proposal, there is currently no independent signal of ability.",
+    "credibility_sprint": [
+      {
+        "action": "Publish a concise LinkedIn post documenting the meeting notes summarizer: what problem it solves, how it was built, what the two users said about it.",
+        "output": "Public social proof anchored to a real tool with real users. Becomes linkable from proposals.",
+        "time_required": "2–3 hours"
+      },
+      {
+        "action": "Ask one or both active tool users for a single written sentence describing what the tool does for them — a LinkedIn recommendation or a quoted testimonial in a proposal.",
+        "output": "Third-party credibility from a named user. The single highest-leverage credibility action available.",
+        "time_required": "15 minutes to ask"
+      },
+      {
+        "action": "Push a sanitized version of one tool (email triage or meeting summarizer) to a public GitHub repo with a clear README explaining the problem, solution, and setup.",
+        "output": "Externally verifiable technical proof. Demonstrates coding ability without a portfolio website.",
+        "time_required": "3–5 hours"
+      },
+      {
+        "action": "Write one detailed LinkedIn post about a specific process failure fixed in a past SaaS ops role — no company name required, just the mechanics of the problem and the fix.",
+        "output": "Domain credibility post that attracts SaaS ops managers and founders.",
+        "time_required": "2 hours"
+      }
+    ]
+  },
+  "content_angles": [
+    {
+      "angle": "The actual cost of manual handoffs in SaaS ops: what breaks, why it keeps breaking, and the minimum viable fix.",
+      "why_credible": "Six years of direct experience with exactly this problem.",
+      "platform_fit": "LinkedIn long-form post or short article. Targets ops managers and SaaS founders who will recognize the pain immediately."
+    },
+    {
+      "angle": "What I learned building an AI email triage agent for my own job search: where LLMs actually help and where they waste your time.",
+      "why_credible": "Personal builder with active tool. First-person account of a real build, not a review of someone else's product.",
+      "platform_fit": "LinkedIn post or dev.to article. Crossover appeal to both technical builders and non-technical operators."
+    },
+    {
+      "angle": "How to evaluate whether a workflow should be automated: the three questions I ask before writing a single line of code.",
+      "why_credible": "Practitioner framework derived from ops experience. Credible precisely because it is skeptical of automation rather than evangelical about it.",
+      "platform_fit": "LinkedIn post. High shareability among ops and founder audiences skeptical of over-automation hype."
+    },
+    {
+      "angle": "Notion and Airtable are not the problem — here is what ops teams actually get wrong with them.",
+      "why_credible": "Direct tool experience in SaaS ops environments. Specific, opinionated takes that can only come from real usage.",
+      "platform_fit": "LinkedIn or Twitter/X. Likely to attract engagement from the tool's own user communities."
+    },
+    {
+      "angle": "Translating AI capabilities to your non-technical boss: what to say, what not to say, and why most pitches fail.",
+      "why_credible": "Spent years as the technical translator in non-technical environments. Understands both sides of the conversation.",
+      "platform_fit": "LinkedIn post targeting mid-level operators trying to get budget or buy-in for tooling."
+    }
+  ],
+  "voice_descriptors": ["Direct", "Grounded", "Practical"],
+  "avoid_phrases": [
+    "I am passionate about...",
+    "Leveraging synergies",
+    "Thought leader",
+    "Disrupting the space",
+    "Full-stack problem solver",
+    "I help businesses unlock their potential",
+    "Transformational results",
+    "Dynamic professional",
+    "Excited to announce",
+    "At the intersection of technology and...",
+    "I wear many hats",
+    "Results-driven"
+  ]
+}

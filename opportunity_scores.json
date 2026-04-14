@@ -1,0 +1,97 @@
+{
+  "scoring_mode": "STANDARD",
+  "scored_at": "2026-04-13T00:00:00Z",
+  "ranked_opportunities": [
+    {
+      "rank": 1,
+      "opportunity_id": "hybrid_002",
+      "opportunity_type": "hybrid",
+      "offering_summary": "Consulting + Meeting Tool Subscription — immediate consulting revenue plus $29/mo from 2 existing users",
+      "total_score": 87.5,
+      "dimension_scores": {
+        "speed_to_first_dollar": {"raw_score": 20, "weighted_score": 20, "justification": "Consulting revenue bookable this week via warm outreach; 2 existing SaaS users are already using the tool, making first dollar essentially immediate."},
+        "skill_match": {"raw_score": 14, "weighted_score": 14, "justification": "Directly leverages demonstrated Claude Code and ops workflow skills with near-zero ramp time."},
+        "market_demand_evidence": {"raw_score": 13, "weighted_score": 13, "justification": "Two live users of the meeting tool plus a clear hourly consulting market in AI ops provide strong, concrete demand signals."},
+        "scalability": {"raw_score": 7, "weighted_score": 7, "justification": "SaaS component scales non-linearly over time, but consulting hours cap growth in the near term."},
+        "network_leverage": {"raw_score": 9, "weighted_score": 9, "justification": "Former manager and 2 ex-colleagues using the summarizer are ready-made warm outreach targets; network is already activated."},
+        "build_cost": {"raw_score": 10, "weighted_score": 10, "justification": "No material build cost — consulting starts immediately and the meeting tool already exists."},
+        "personal_fit": {"raw_score": 8, "weighted_score": 8, "justification": "Fits freelance/few-clients model, stays under 30 hrs/week, no travel or on-call."},
+        "defensibility": {"raw_score": 6.5, "weighted_score": 6.5, "justification": "Existing user relationships and a live product create modest moat."}
+      },
+      "flags": [],
+      "recommended": true
+    },
+    {
+      "rank": 2,
+      "opportunity_id": "consulting_002",
+      "opportunity_type": "consulting",
+      "offering_summary": "Claude Code Implementation Sprint — $150-$300/hr, 18 hrs/engagement, 2-week project",
+      "total_score": 83.5,
+      "dimension_scores": {
+        "speed_to_first_dollar": {"raw_score": 19, "weighted_score": 19, "justification": "A 2-week sprint can be sold and started within days via warm outreach, putting revenue inside the 30-day window comfortably."},
+        "skill_match": {"raw_score": 14, "weighted_score": 14, "justification": "Claude Code implementation is the core demonstrated skill — this is selling what the person already knows cold."},
+        "market_demand_evidence": {"raw_score": 12, "weighted_score": 12, "justification": "Enterprise AI tooling implementation is a hot market; the 2 ex-colleagues confirm real organizational demand."},
+        "scalability": {"raw_score": 5, "weighted_score": 5, "justification": "Pure time-for-money with limited scale; productizing the sprint is possible but not built in."},
+        "network_leverage": {"raw_score": 8, "weighted_score": 8, "justification": "Warm leads include former manager and colleagues at companies already using similar tools."},
+        "build_cost": {"raw_score": 10, "weighted_score": 10, "justification": "Zero build cost; this is a service engagement that starts with a calendar invite."},
+        "personal_fit": {"raw_score": 9, "weighted_score": 9, "justification": "2-week sprint structure naturally stays under 30 hrs/week, no travel required, no on-call."},
+        "defensibility": {"raw_score": 6.5, "weighted_score": 6.5, "justification": "Expertise in Claude Code is currently specialized; reputation and case studies are the real moat."}
+      },
+      "flags": [],
+      "recommended": false
+    },
+    {
+      "rank": 3,
+      "opportunity_id": "freelance_004",
+      "opportunity_type": "freelance",
+      "offering_summary": "90-Min AI Automation Audit — $300-$750, 5 hrs/project, entry product with 40% upsell rate",
+      "total_score": 82.0,
+      "dimension_scores": {
+        "speed_to_first_dollar": {"raw_score": 20, "weighted_score": 20, "justification": "A 90-minute audit can be sold and delivered within 48 hours of first outreach — fastest possible path to a paid engagement."},
+        "skill_match": {"raw_score": 13, "weighted_score": 13, "justification": "Diagnosing AI automation gaps maps directly to existing ops and AI tooling expertise."},
+        "market_demand_evidence": {"raw_score": 12, "weighted_score": 12, "justification": "VP Ops buyers at Series A-B are known to pay for quick expert assessments; low price point reduces friction."},
+        "scalability": {"raw_score": 7, "weighted_score": 7, "justification": "40% upsell rate means the audit functions as a self-funding sales funnel into larger engagements."},
+        "network_leverage": {"raw_score": 7, "weighted_score": 7, "justification": "Warm leads can absorb the first 2-3 audits; 80-connection network generates additional volume with light outreach."},
+        "build_cost": {"raw_score": 10, "weighted_score": 10, "justification": "Zero build cost; a one-page audit template is the only asset needed."},
+        "personal_fit": {"raw_score": 8, "weighted_score": 8, "justification": "5 hrs/project is far under the 30-hr cap; no travel, no on-call."},
+        "defensibility": {"raw_score": 5, "weighted_score": 5, "justification": "Audits are low defensibility on their own; the moat comes from converting audits into larger retained engagements."}
+      },
+      "flags": ["Low individual deal size; volume or upsell conversion required to hit meaningful monthly revenue."],
+      "recommended": false
+    }
+  ],
+  "disqualified_opportunities": [],
+  "top_3_for_human_review": [
+    {
+      "rank": 1,
+      "opportunity_id": "hybrid_002",
+      "one_paragraph_summary": "This hybrid combines immediate consulting revenue from AI ops engagements with a recurring SaaS revenue seed from 2 users already using the meeting summarizer. It is the only opportunity that activates multiple income streams simultaneously with zero build cost and zero cold-start risk. The consulting leg generates $2700-$5850 per engagement while the SaaS leg plants a recurring revenue seed that grows independently. Both legs draw from the same warm network, and neither requires more than 15-20 hours per week to initiate.",
+      "why_this_person": "Two existing users of the tool are embedded in the professional network. That is an extraordinary asset that most freelancers never have at week 1. The hybrid structure matches the stated preference for freelance income with few high-value clients while beginning the transition toward scalable product revenue. It fits under 30 hrs/week, no travel, no on-call, and starts paying within days.",
+      "biggest_risk": "The two SaaS users generate minimal initial recurring revenue ($29-$58/mo), so the consulting leg must carry financial weight for the first 60-90 days. If consulting pipeline stalls after warm leads are exhausted, revenue could plateau before SaaS compound growth becomes meaningful.",
+      "first_action": "Message the 2 ex-colleagues using the meeting summarizer today to formalize usage into a paid subscription ($29/mo) and ask for a 30-minute call to explore whether their teams need a broader AI workflow audit or implementation sprint — this converts warm goodwill into two revenue streams in one conversation."
+    },
+    {
+      "rank": 2,
+      "opportunity_id": "consulting_002",
+      "one_paragraph_summary": "The Claude Code Implementation Sprint is a 2-week, 18-hour engagement priced at $150-$300/hr, producing $2700-$5400 per project. Zero build cost, maps directly to demonstrated technical skills, and can be sold and started within the 30-day income urgency window. The sprint format naturally constrains scope to avoid on-call and long-term obligations.",
+      "why_this_person": "Claude Code implementation is this person's demonstrated technical strength, and the warm network already contains people actively using these tools who can make internal referrals. The sprint format is perfectly matched to the 15-30 hr/week constraint and avoids the indefinite commitment risk of retainers.",
+      "biggest_risk": "After the warm leads are converted (likely 2-3 engagements), pipeline development requires active business development effort to cold-reach VP Ops and CTO personas who are harder to access without warm introductions.",
+      "first_action": "Draft a one-page 'Claude Code Implementation Sprint' service description and send it directly to the former manager with a note asking if their team has been exploring Claude Code."
+    },
+    {
+      "rank": 3,
+      "opportunity_id": "freelance_004",
+      "one_paragraph_summary": "The 90-Minute AI Automation Audit is a $300-$750 entry product requiring only 5 hours of delivery time — the single fastest path to a completed paid engagement on the list. The 40% upsell rate means it functions as a funded lead generation mechanism that converts into $2700-$5850 consulting engagements. Requires only a one-page audit template and a calendar link to launch.",
+      "why_this_person": "The audit positions this person as a diagnostic expert, which is the right framing for someone building a consulting practice. The warm network of 5 leads can absorb the first 3-5 audits immediately. Can be run in parallel with hybrid_002 at no additional cost.",
+      "biggest_risk": "The audit itself generates limited revenue at $300-$750; financial survival requires consistent upsell conversion. If the 40% upsell rate doesn't materialize, the audit business alone will not cover monthly expenses.",
+      "first_action": "Create a one-page 'AI Automation Audit' brief today, then offer it to the former manager and 2 ex-colleagues as a limited-availability discount for network contacts."
+    }
+  ],
+  "recommendation": {
+    "recommended_opportunity_id": "hybrid_002",
+    "rationale": "hybrid_002 is the only opportunity that turns an existing asset — two live warm-network users of a tool already built — into immediate dual-stream revenue without spending a single hour on cold outreach or product development. Every other opportunity requires either building something new, reaching people who don't already know the person, or waiting months for compounding to work. This opportunity starts with the rarest resource in freelance business development: people who have already experienced the value and trust the person delivering it. The consulting leg provides financial weight while the SaaS leg begins compounding. It fits every constraint, and the first action requires nothing more than sending two messages today.",
+    "second_choice": "consulting_002",
+    "second_choice_note": "If hybrid_002 stalls because the 2 existing users are unwilling to formalize payment or expand scope, the Claude Code Implementation Sprint is the cleanest standalone fallback. Same network, clearly scoped offer, $2700-$5400 per engagement. Pursue this in parallel as the second outreach message in week 1 — it costs nothing to run both simultaneously."
+  },
+  "scoring_notes": "STANDARD weights applied. Content-only opportunities scored severely penalized on speed-to-first-dollar (4-6 month ramp incompatible with 8-week runway). SaaS opportunities penalized on speed and defensibility given build time and crowded markets. No automatic disqualifiers triggered. All deal-breakers checked: no opportunity requires travel or on-call support. Hybrid opportunities evaluated holistically for the 30 hr/week constraint."
+}

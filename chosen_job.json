@@ -1,0 +1,44 @@
+{
+  "job_title": "AI Ops Consultant + Meeting Tool Subscription",
+  "job_type": "hybrid",
+  "one_sentence_description": "Build and sell Claude Code automations for B2B SaaS ops teams at $150-$300/hr for project work, while converting the existing meeting summarizer into a $29-$49/month paid product.",
+  "target_customer": "Operations managers, chiefs of staff, and heads of CS at B2B SaaS companies with 15-100 employees who are drowning in manual process work and either don't have a technical team or don't have time to build automations themselves.",
+  "core_deliverable": "A working Claude Code automation deployed in the client's existing tools (Notion, Slack, Airtable, or Gmail), tested on real data, with documentation and a live handoff session. Typical deliverable is 1-3 connected workflows solving a specific ops pain point.",
+  "pricing_model": {
+    "type": "hybrid",
+    "entry_price": 500,
+    "core_price": 2700,
+    "premium_price": 5400
+  },
+  "primary_acquisition_channel": "Warm network outreach to former manager and 2 ex-colleagues currently using the meeting summarizer — convert existing tool users to paid subscribers and offer their networks a project engagement",
+  "monthly_income_target": {
+    "30_days": 1500,
+    "90_days": 4500
+  },
+  "key_dependencies": [
+    "2 existing meeting summarizer users agree to formalize as paying subscribers",
+    "At least 1 of 3 warm contacts converts to a paid project engagement within 21 days",
+    "Stripe or Wave account set up to accept payment before first invoice"
+  ],
+  "first_revenue_action": "Message the 2 ex-colleagues using the meeting summarizer today: 'Hey — glad the summarizer has been useful. I'm formalizing it as a paid tool at $29/mo. Would that work for you? And while I have you — is there any other workflow in your ops stack where something similar would save your team time? I'm taking on a few paid projects this month.'",
+  "selection_rationale": "Scored 87.5/100. Only opportunity that activates multiple income streams simultaneously with zero build cost and zero cold-start risk. Two existing users are the unfair advantage — most freelancers never have this at week 1.",
+  "override_of_recommendation": false,
+  "override_reason": null,
+  "hybrid_sequencing": [
+    {
+      "phase": "Phase 1 (Weeks 1-4)",
+      "income_type": "consulting projects + tool subscriptions",
+      "trigger_to_next": "First paid project closed AND at least 1 paying tool subscriber"
+    },
+    {
+      "phase": "Phase 2 (Months 2-3)",
+      "income_type": "consulting pipeline + growing tool subscriptions via referrals",
+      "trigger_to_next": "2 concurrent consulting clients + 5+ tool subscribers ($145-$245/mo MRR)"
+    },
+    {
+      "phase": "Phase 3 (Months 4-6)",
+      "income_type": "consulting at raised rates + productized tool with payment UI",
+      "trigger_to_next": "Monthly income from both streams combined exceeds $4,500/mo consistently"
+    }
+  ]
+}
